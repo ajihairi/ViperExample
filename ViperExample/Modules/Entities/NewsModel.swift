@@ -26,7 +26,7 @@ class NewsModel: Mappable{
     internal var publishedAt: String?
     
     required init?(map: Map) {
-        mapping(map: <#T##Map#>)
+        mapping(map: map);
     }
     
     func mapping(map: Map) {

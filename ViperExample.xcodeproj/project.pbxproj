@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3CAA8213FE419DEDE4B1B3D7 /* Pods_ViperExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86B8D304C3FB9314CDB1BC9 /* Pods_ViperExample.framework */; };
 		4C1D95909ED1D3EA69E44462 /* Pods_ViperExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F90954A0FF3A47EECBCB3A /* Pods_ViperExampleTests.framework */; };
+		99053CDC21E86F09008FEF64 /* NewsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99053CDB21E86F09008FEF64 /* NewsRouter.swift */; };
 		99967A4021E71D61005DABC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99967A3F21E71D61005DABC5 /* AppDelegate.swift */; };
 		99967A4221E71D61005DABC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99967A4121E71D61005DABC5 /* ViewController.swift */; };
 		99967A4521E71D61005DABC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99967A4321E71D61005DABC5 /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		093D60E1A4929E7E673738DD /* Pods-ViperExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperExampleUITests/Pods-ViperExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4678B503409FB16934EC60CA /* Pods-ViperExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperExample/Pods-ViperExample.release.xcconfig"; sourceTree = "<group>"; };
 		4847CF65B56362BF681C4284 /* Pods-ViperExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViperExample/Pods-ViperExample.debug.xcconfig"; sourceTree = "<group>"; };
+		99053CDB21E86F09008FEF64 /* NewsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRouter.swift; sourceTree = "<group>"; };
 		99967A3C21E71D61005DABC5 /* ViperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99967A3F21E71D61005DABC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99967A4121E71D61005DABC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 		99967A7421E722E9005DABC5 /* Routers */ = {
 			isa = PBXGroup;
 			children = (
+				99053CDB21E86F09008FEF64 /* NewsRouter.swift */,
 			);
 			path = Routers;
 			sourceTree = "<group>";
@@ -477,6 +480,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99967A7D21E7280F005DABC5 /* NewsModel.swift in Sources */,
+				99053CDC21E86F09008FEF64 /* NewsRouter.swift in Sources */,
 				99967A4221E71D61005DABC5 /* ViewController.swift in Sources */,
 				99967A4021E71D61005DABC5 /* AppDelegate.swift in Sources */,
 				99967A7B21E72794005DABC5 /* NewsProtocol.swift in Sources */,
