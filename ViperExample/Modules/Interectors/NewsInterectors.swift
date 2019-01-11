@@ -14,6 +14,7 @@ class NewsInterector: PresenterToInterectorProtocol{
     var presenter: InterectorToPresenterProtocol?;
     
     func FetchNews() {
+        print(Constants.URL);
         Alamofire.request(Constants.URL).responseJSON { response in
             if(response.response?.statusCode == 200){
                 if let json = response.result.value as AnyObject? {

@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     var presenter: ViewToPresenterProtocol?
     
+    
     @IBOutlet weak var newsLabel: UILabel!
     @IBOutlet weak var sourceLabel: UILabel!
     @IBOutlet weak var DescriptionText: UITextView!

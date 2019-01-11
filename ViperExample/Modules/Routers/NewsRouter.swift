@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 
 class NewsRouter: PresenterToRouterProtocol {
+    
     class func createModule() -> UIViewController {
         let view = mainstoryboard.instantiateViewController(withIdentifier: "ViewController") as? ViewController;
         let presenter: ViewToPresenterProtocol & InterectorToPresenterProtocol = NewsPresenter();
