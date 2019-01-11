@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,21 +15,20 @@
             <objects>
                 <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="ViperExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="sadsdawddw awdawdawdawd awdawdawdawdawd awdawdawdaw dawd" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M0j-Gv-jNT">
-                                <rect key="frame" x="16" y="113" width="343" height="45"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sadsdawddw awdawdawdawd awdawdawdawdawd awdawdawdaw dawd" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M0j-Gv-jNT">
+                                <rect key="frame" x="10" y="137" width="393" height="131"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="103" id="F98-yD-ZEc"/>
-                                    <constraint firstAttribute="height" constant="21" id="h1I-d7-GXY"/>
+                                    <constraint firstAttribute="height" constant="131" id="5sl-1S-rEI"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Xs5-Zf-qxw">
-                                <rect key="frame" x="27.5" y="191" width="320" height="285"/>
+                                <rect key="frame" x="47" y="305.5" width="320" height="285"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="320" id="8Es-dH-W1L"/>
@@ -39,10 +38,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="News Source..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FVr-Jv-QnP">
-                                <rect key="frame" x="27" y="166" width="321" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="News Source..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FVr-Jv-QnP">
+                                <rect key="frame" x="46" y="276" width="321" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="115" id="96g-dC-5cc"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="321" id="96g-dC-5cc"/>
                                     <constraint firstAttribute="height" constant="21" id="BmO-FK-ird"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -53,12 +52,14 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="M0j-Gv-jNT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0uh-YS-dy2"/>
-                            <constraint firstItem="M0j-Gv-jNT" firstAttribute="centerX" secondItem="FVr-Jv-QnP" secondAttribute="centerX" id="9QC-Vm-6XE"/>
-                            <constraint firstItem="M0j-Gv-jNT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="93" id="TSf-oc-uHY"/>
-                            <constraint firstItem="M0j-Gv-jNT" firstAttribute="centerX" secondItem="Xs5-Zf-qxw" secondAttribute="centerX" id="V7a-5I-Re0"/>
+                            <constraint firstItem="M0j-Gv-jNT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="93" id="MAY-Ap-wR5"/>
+                            <constraint firstItem="M0j-Gv-jNT" firstAttribute="centerX" secondItem="FVr-Jv-QnP" secondAttribute="centerX" id="Xqv-jY-PNi"/>
+                            <constraint firstItem="Xs5-Zf-qxw" firstAttribute="trailing" secondItem="FVr-Jv-QnP" secondAttribute="trailing" id="YGQ-1f-acI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="M0j-Gv-jNT" secondAttribute="trailing" id="ZlO-oX-Nkr"/>
+                            <constraint firstItem="FVr-Jv-QnP" firstAttribute="top" secondItem="M0j-Gv-jNT" secondAttribute="bottom" constant="8" symbolic="YES" id="jle-uE-KJj"/>
                             <constraint firstItem="Xs5-Zf-qxw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kHG-Jz-96F"/>
-                            <constraint firstItem="FVr-Jv-QnP" firstAttribute="top" secondItem="M0j-Gv-jNT" secondAttribute="bottom" constant="16" id="kmU-Gd-3Uh"/>
+                            <constraint firstItem="Xs5-Zf-qxw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nHi-qd-Hsm"/>
+                            <constraint firstItem="M0j-Gv-jNT" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ocU-3l-dYv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -70,7 +71,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+            <point key="canvasLocation" x="136.23188405797103" y="133.25892857142856"/>
         </scene>
     </scenes>
 </document>
