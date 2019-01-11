@@ -9,8 +9,8 @@
 import Foundation
 import ObjectMapper
 
-private let KEY_SOURCE = "source";
-private let KEY_NEWS = "news";
+private let KEY_SOURCE = "author";
+private let KEY_NEWS = "title";
 private let KEY_DESCRIPTION = "description";
 private let KEY_URL = "url";
 private let KEY_URLTOIMAGE = "urltoimage";

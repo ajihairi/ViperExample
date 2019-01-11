@@ -35,6 +35,8 @@ extension ViewController: PresenterToViewProtocol{
         newsLabel.text = news.news;
         sourceLabel.text = news.source;
         DescriptionText.text = news.description;
+
+        
     }
     
     func showError() {
